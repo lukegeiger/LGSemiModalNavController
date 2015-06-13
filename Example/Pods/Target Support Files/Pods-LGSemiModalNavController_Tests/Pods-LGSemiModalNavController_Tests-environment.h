@@ -9,6 +9,6 @@
 // LGSemiModalNavController
 #define COCOAPODS_POD_AVAILABLE_LGSemiModalNavController
 #define COCOAPODS_VERSION_MAJOR_LGSemiModalNavController 0
-#define COCOAPODS_VERSION_MINOR_LGSemiModalNavController 1
+#define COCOAPODS_VERSION_MINOR_LGSemiModalNavController 2
 #define COCOAPODS_VERSION_PATCH_LGSemiModalNavController 0
 

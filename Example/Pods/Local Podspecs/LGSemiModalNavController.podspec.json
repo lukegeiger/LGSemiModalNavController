@@ -1,6 +1,6 @@
 {
   "name": "LGSemiModalNavController",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A UINavigationController subclass that presents itself a dynamic amount",
   "description": "A UINavigationController subclass that presents itself a dynamic amount in a view controller using the UIViewControllerAnimatedTransitioning protocol.\n",
   "homepage": "https://github.com/lukegeiger/LGSemiModalNavController",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/lukegeiger/LGSemiModalNavController.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "social_media_url": "https://twitter.com/lukejgeiger",
   "platforms": {

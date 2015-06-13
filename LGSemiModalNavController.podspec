@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LGSemiModalNavController"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A UINavigationController subclass that presents itself a dynamic amount"
   s.description      = <<-DESC
 A UINavigationController subclass that presents itself a dynamic amount in a view controller using the UIViewControllerAnimatedTransitioning protocol.
