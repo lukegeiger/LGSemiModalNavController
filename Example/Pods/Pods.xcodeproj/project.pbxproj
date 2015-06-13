@@ -7,436 +7,381 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		194A3FDB899B553BBC22ADC1 /* LGSemiModalNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCB662DB9FB4D573A224BA6 /* LGSemiModalNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BA00449E86135095973F15D /* LGSemiModalNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCB662DB9FB4D573A224BA6 /* LGSemiModalNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F9683604C1115EF54201E53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B93901A49CD4EE54A73701 /* UIKit.framework */; };
-		3240DD2A5277DD2C960597E7 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F8B209F5DDFA4E2F34B0E7 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		454AD3B98EF192C4B5ACA1ED /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 704C991083C07B67E9ACCD18 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m */; };
-		5D785A7407B79869746FA5F2 /* Pods-LGSemiModalNavController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8606A845CC2CDF69F3BF566 /* Pods-LGSemiModalNavController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		655CEE867C9D204B10B0C37C /* LGSemiModalNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C4AFCA4FFF062144D92C86 /* LGSemiModalNavViewController.m */; };
-		706F00CBC13E5986A3DC82E3 /* LGSemiModalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3D8B00802FED3CD769FCA7 /* LGSemiModalTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		717BDA2D7DC54F88A64036AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B93901A49CD4EE54A73701 /* UIKit.framework */; };
-		780FC2924C4374644414AF2E /* LGSemiModalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C9164643BDDFDC9DF7619 /* LGSemiModalTransition.m */; };
-		8567B27EAFFE60145FE7C3F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7333A38FDE10C64BB4B934B1 /* Foundation.framework */; };
-		9C0DF355A506A585709B4F45 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D38ACAA5A6D77B65E40C9A69 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m */; };
-		A0D2B27DD784EDFAE9AD5610 /* Pods-LGSemiModalNavController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C4B7E08A9638F3F4A161B0 /* Pods-LGSemiModalNavController_Tests-dummy.m */; };
-		A2D9430877DEA053EDC7FEA0 /* LGSemiModalNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C4AFCA4FFF062144D92C86 /* LGSemiModalNavViewController.m */; };
-		A68AB51F4CEADC0C8D899A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7333A38FDE10C64BB4B934B1 /* Foundation.framework */; };
-		B2D55BF6AFB1D19AB80ECB78 /* LGSemiModalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C9164643BDDFDC9DF7619 /* LGSemiModalTransition.m */; };
-		B375643FFBB758BB4042AAB0 /* Pods-LGSemiModalNavController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABA2D8B4F524AC5C4EB245D /* Pods-LGSemiModalNavController_Example-dummy.m */; };
-		BFEF0785678B254C23FF3CC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7333A38FDE10C64BB4B934B1 /* Foundation.framework */; };
-		D7BEE16D0908EF8D56669EDD /* Pods-LGSemiModalNavController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B40B361C632F87814CB48B2 /* Pods-LGSemiModalNavController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDC9C579A4A6829D5EF141F1 /* LGSemiModalNavController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCD3243AEF077A0C36596678 /* LGSemiModalNavController.bundle */; };
-		F15E65A38364462194D992AB /* LGSemiModalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3D8B00802FED3CD769FCA7 /* LGSemiModalTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F689E3F5F1B7C1BF743153BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7333A38FDE10C64BB4B934B1 /* Foundation.framework */; };
-		FBA7130FAE5621791649BA36 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F169D44F5515FA383BD038 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBFDBFCE8A9F62512F57ECDB /* LGSemiModalNavController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA2CCC20A28AF080F6471313 /* LGSemiModalNavController.bundle */; };
+		081C3B5054A1567E06051901 /* LGSemiModalNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D3FD3D7358885042411E3 /* LGSemiModalNavViewController.m */; };
+		0F7237391B58E2B62B650767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9252F1282C0BCD5FAA2A6328 /* Foundation.framework */; };
+		1420163AFD90962C9009D686 /* Pods-LGSemiModalNavController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFAB54E307E65FF172C75502 /* Pods-LGSemiModalNavController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F557C84292A61113C75F54 /* LGSemiModalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAE0BCF8B852C08AEB18155 /* LGSemiModalTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BD17C82F089DCF1DBD3D467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAA27CCFCFF2F007E56B04F /* UIKit.framework */; };
+		24AD8366CB8D00AA29A5CE2A /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1583376D43F427200927FA36 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3895F4E16301B5E75F71D8DA /* LGSemiModalNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BB67784C8127A54AEC5E6B33 /* LGSemiModalNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD4C61E32705BC03C125445 /* Pods-LGSemiModalNavController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78FA7D3EFC5527413FC61F /* Pods-LGSemiModalNavController_Tests-dummy.m */; };
+		6440F6F3CF6ABBCF2757F7D3 /* LGSemiModalNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BB67784C8127A54AEC5E6B33 /* LGSemiModalNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		698B4181303AEC812D5C46EE /* LGSemiModalNavController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40C608CA9383E32EAFD3C077 /* LGSemiModalNavController.bundle */; };
+		70B9D5854E47B965A0CDE831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAA27CCFCFF2F007E56B04F /* UIKit.framework */; };
+		722BEB5567DE1FD30DBFD5FA /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C84FFFD54879F7A766264749 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m */; };
+		791F86C26C7390444932C6F2 /* LGSemiModalNavController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8179E72919E3F1AD646AB78C /* LGSemiModalNavController.bundle */; };
+		807C1B9B3CA1E8970458BB3E /* LGSemiModalTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAE0BCF8B852C08AEB18155 /* LGSemiModalTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0D14A34918969A7C0493F4 /* Pods-LGSemiModalNavController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A20AEA7DCA683183B8773F0 /* Pods-LGSemiModalNavController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		929212BCE56BACC7F1CD06BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9252F1282C0BCD5FAA2A6328 /* Foundation.framework */; };
+		95D7D486389C4C3704A83F14 /* LGSemiModalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756E03C5B5FCF604B87D2A3 /* LGSemiModalTransition.m */; };
+		9871B77E3961BD5FCFB15769 /* LGSemiModalNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D3FD3D7358885042411E3 /* LGSemiModalNavViewController.m */; };
+		A77F110BFD510C0BDA7C40E5 /* Pods-LGSemiModalNavController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8FF64621F764405638F014 /* Pods-LGSemiModalNavController_Example-dummy.m */; };
+		AFB7376D6FEB83D84DF73303 /* LGSemiModalTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756E03C5B5FCF604B87D2A3 /* LGSemiModalTransition.m */; };
+		D11B46D3ADF52CC09BBB448E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9252F1282C0BCD5FAA2A6328 /* Foundation.framework */; };
+		D1EBAC9779300106A1426CF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9252F1282C0BCD5FAA2A6328 /* Foundation.framework */; };
+		D83FF2560E17023E7EE8EEEE /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 687174EF6338893BD358A81A /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m */; };
+		F437B219EC594A5499E01C09 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2545378A7A5BC3E9125C8593 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A380FC0318C8945705FA6E7 /* PBXContainerItemProxy */ = {
+		65FB5FEBD64C57FC6A7B6958 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F8D1335B067C14F6710A60E7 /* Project object */;
+			containerPortal = D41A6A517DE52933697488BE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC1ED6FC562024AA8ACD27F1;
-			remoteInfo = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController";
-		};
-		52FAE2DEB2D20424A8522A2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8D1335B067C14F6710A60E7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C76495BC59F9FA6456EC7309;
-			remoteInfo = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController";
-		};
-		D145F17A71B224AADF1FA7DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8D1335B067C14F6710A60E7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9228031157D7107D428C34B;
+			remoteGlobalIDString = 823827470D54D1576EAF5A65;
 			remoteInfo = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
 		};
-		E4FCDF9945AC429DF85C1059 /* PBXContainerItemProxy */ = {
+		74E036ACFDFFD7634D76F170 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F8D1335B067C14F6710A60E7 /* Project object */;
+			containerPortal = D41A6A517DE52933697488BE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 601A10AF0D855BB521DD8782;
+			remoteGlobalIDString = 9FC18F8400B46BE755C1B1EC;
 			remoteInfo = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController";
+		};
+		C1595D74FF2A6358ECC5220A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41A6A517DE52933697488BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A17C97434D74C305ACE051;
+			remoteInfo = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController";
+		};
+		F0351E0D6C805EBCBFF1390A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41A6A517DE52933697488BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63AA7B9BC1960E3133A70B87;
+			remoteInfo = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0067760A37E0173EFA8E0E27 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap"; sourceTree = "<group>"; };
-		04DA2377474C3CD7FC46E067 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05A0CE8B9B698B7AA93C9E64 /* Pods-LGSemiModalNavController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		06C4B7E08A9638F3F4A161B0 /* Pods-LGSemiModalNavController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSemiModalNavController_Tests-dummy.m"; sourceTree = "<group>"; };
-		0824D63C841716993D745FFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Info.plist"; sourceTree = "<group>"; };
-		0ABA2D8B4F524AC5C4EB245D /* Pods-LGSemiModalNavController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSemiModalNavController_Example-dummy.m"; sourceTree = "<group>"; };
-		0DCB10619DFA7738DA1B208F /* Pods-LGSemiModalNavController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSemiModalNavController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0FCB662DB9FB4D573A224BA6 /* LGSemiModalNavViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGSemiModalNavViewController.h; sourceTree = "<group>"; };
-		1331B5A456E06793338051B4 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch"; sourceTree = "<group>"; };
-		177813C56FD293EEA6513A93 /* Pods-LGSemiModalNavController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1F54AC2575BE4E8F626076A7 /* Pods-LGSemiModalNavController_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Tests-environment.h"; sourceTree = "<group>"; };
-		23C70864E0720BC3DBB1D019 /* Pods-LGSemiModalNavController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		271463155828279A67B6693D /* Pods-LGSemiModalNavController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSemiModalNavController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		29C519FDD18A40E8ADC195A4 /* Pods-LGSemiModalNavController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGSemiModalNavController_Tests.modulemap"; sourceTree = "<group>"; };
-		32095882ACF03359D33E9BF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39F87F698CDDB917C89F72CD /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.xcconfig"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.xcconfig"; sourceTree = "<group>"; };
-		3B40B361C632F87814CB48B2 /* Pods-LGSemiModalNavController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Example-umbrella.h"; sourceTree = "<group>"; };
-		3E93910CAA7BF65FCCD88A02 /* Pods-LGSemiModalNavController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSemiModalNavController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		43F169D44F5515FA383BD038 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h"; sourceTree = "<group>"; };
-		464156660C2CB286A98C2226 /* LGSemiModalNavController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGSemiModalNavController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		492E20FFD21A66CAD6B482EF /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig"; sourceTree = "<group>"; };
-		4D5273E02EEBEB4075E85675 /* LGSemiModalNavController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGSemiModalNavController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53C287629533D3F333441728 /* Pods-LGSemiModalNavController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSemiModalNavController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		639C9164643BDDFDC9DF7619 /* LGSemiModalTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGSemiModalTransition.m; sourceTree = "<group>"; };
-		6D3D8B00802FED3CD769FCA7 /* LGSemiModalTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGSemiModalTransition.h; sourceTree = "<group>"; };
-		704C991083C07B67E9ACCD18 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m"; sourceTree = "<group>"; };
-		7333A38FDE10C64BB4B934B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		906CF35C137E9B7BE64BD2EA /* Pods-LGSemiModalNavController_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Example-environment.h"; sourceTree = "<group>"; };
-		A907B36469F537D3A508B338 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig"; sourceTree = "<group>"; };
-		AA29703008718CCB78EB18B0 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap"; sourceTree = "<group>"; };
-		AA2CCC20A28AF080F6471313 /* LGSemiModalNavController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSemiModalNavController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC270C4432B14713E9952F5C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B7AA80C9A561AA6D27461107 /* Pods-LGSemiModalNavController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGSemiModalNavController_Example.modulemap"; sourceTree = "<group>"; };
-		B7F8B209F5DDFA4E2F34B0E7 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h"; sourceTree = "<group>"; };
-		B8606A845CC2CDF69F3BF566 /* Pods-LGSemiModalNavController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C6E86776EE785859263CC9F0 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController.xcconfig"; sourceTree = "<group>"; };
-		C9842B9CEB7E4127676636FB /* Pods-LGSemiModalNavController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CCD3243AEF077A0C36596678 /* LGSemiModalNavController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSemiModalNavController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0832B3B4D153726B0B391D1 /* Pods-LGSemiModalNavController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSemiModalNavController_Example-resources.sh"; sourceTree = "<group>"; };
-		D38ACAA5A6D77B65E40C9A69 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m"; sourceTree = "<group>"; };
-		DA111C7C92AA5538C1A886AA /* Pods_LGSemiModalNavController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGSemiModalNavController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE838A0BEE89D4A9AA2A35D3 /* Pods-LGSemiModalNavController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSemiModalNavController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3B93901A49CD4EE54A73701 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E3C4AFCA4FFF062144D92C86 /* LGSemiModalNavViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGSemiModalNavViewController.m; sourceTree = "<group>"; };
-		F047C041CBAF4F9723B03F33 /* Pods-LGSemiModalNavController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSemiModalNavController_Tests-resources.sh"; sourceTree = "<group>"; };
-		F4B94C4421106F1AABCA8F38 /* Pods-LGSemiModalNavController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSemiModalNavController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F55EA5C57C0FF4953B63FA93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBA0F8BE55A3FE4BC13B05CC /* Pods_LGSemiModalNavController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGSemiModalNavController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE3E2B9F4E75F83FAE40941E /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch"; sourceTree = "<group>"; };
+		0BD916719EB1969F0E04F914 /* Pods-LGSemiModalNavController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0CB61DF711961539B992635B /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig"; sourceTree = "<group>"; };
+		0DC89F433D11CD558F3D0A1F /* LGSemiModalNavController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGSemiModalNavController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1583376D43F427200927FA36 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h"; sourceTree = "<group>"; };
+		2545378A7A5BC3E9125C8593 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h"; sourceTree = "<group>"; };
+		2C13E41AE10B4E640B217BB7 /* Pods-LGSemiModalNavController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSemiModalNavController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C4D3FD3D7358885042411E3 /* LGSemiModalNavViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGSemiModalNavViewController.m; sourceTree = "<group>"; };
+		3AA05A1EE79146F391AE3BB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C608CA9383E32EAFD3C077 /* LGSemiModalNavController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSemiModalNavController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		43037B04307F801C0EA9771B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A20AEA7DCA683183B8773F0 /* Pods-LGSemiModalNavController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Example-umbrella.h"; sourceTree = "<group>"; };
+		4C78FA7D3EFC5527413FC61F /* Pods-LGSemiModalNavController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSemiModalNavController_Tests-dummy.m"; sourceTree = "<group>"; };
+		54B9F2E3B926AE636CEBF2A3 /* Pods-LGSemiModalNavController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSemiModalNavController_Example-resources.sh"; sourceTree = "<group>"; };
+		64A0872E7FDB8C494DE747F5 /* Pods_LGSemiModalNavController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGSemiModalNavController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EE41B1D2C475206D2BEDC7 /* Pods-LGSemiModalNavController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSemiModalNavController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		687174EF6338893BD358A81A /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m"; sourceTree = "<group>"; };
+		6ABFEF8028817FB2A31B1154 /* Pods-LGSemiModalNavController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSemiModalNavController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7109902D3D6AF02A06780183 /* Pods-LGSemiModalNavController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSemiModalNavController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		716FEB4D539406A5FE2A777A /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig"; sourceTree = "<group>"; };
+		7756E03C5B5FCF604B87D2A3 /* LGSemiModalTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGSemiModalTransition.m; sourceTree = "<group>"; };
+		7D4DA422C5A8E83F96819782 /* Pods-LGSemiModalNavController_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Tests-environment.h"; sourceTree = "<group>"; };
+		8179E72919E3F1AD646AB78C /* LGSemiModalNavController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSemiModalNavController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		839E828C38D22F0C28C8400F /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController.xcconfig"; sourceTree = "<group>"; };
+		85B188D41B20B01F72C88BDB /* Pods_LGSemiModalNavController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGSemiModalNavController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAE0BCF8B852C08AEB18155 /* LGSemiModalTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGSemiModalTransition.h; sourceTree = "<group>"; };
+		8F98AAD6E6DBF706854E238F /* Pods-LGSemiModalNavController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91F2DDA872C7FA9391E0357E /* LGSemiModalNavController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGSemiModalNavController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9252F1282C0BCD5FAA2A6328 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		98D36C129DC3DB577A6F667C /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch"; sourceTree = "<group>"; };
+		9AF00A666C6FC0FE79106C81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D2E464F77632574460A9CF /* Pods-LGSemiModalNavController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSemiModalNavController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A74257A91A27E94DF36720C7 /* Pods-LGSemiModalNavController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGSemiModalNavController_Example.modulemap"; sourceTree = "<group>"; };
+		A7C4FBA30B151652C77D592A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Info.plist"; sourceTree = "<group>"; };
+		B8B8ABB1A48840F77A38E4DF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAC3FCA5B2CF10B8F5B4D0F8 /* Pods-LGSemiModalNavController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSemiModalNavController_Tests-resources.sh"; sourceTree = "<group>"; };
+		BB67784C8127A54AEC5E6B33 /* LGSemiModalNavViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGSemiModalNavViewController.h; sourceTree = "<group>"; };
+		C18B55C6425A755FB20C7286 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch"; sourceTree = "<group>"; };
+		C84FFFD54879F7A766264749 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m"; sourceTree = "<group>"; };
+		CFAB54E307E65FF172C75502 /* Pods-LGSemiModalNavController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D95CB7D1DBEE7AA3454A6EEA /* Pods-LGSemiModalNavController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DE6C2F4A2DA0EDE01DA8C1C7 /* Pods-LGSemiModalNavController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSemiModalNavController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E171F8D791E0E545132ACCA5 /* Pods-LGSemiModalNavController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGSemiModalNavController_Tests.modulemap"; sourceTree = "<group>"; };
+		E6811B63E1E1D6C731B7C027 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.xcconfig"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.xcconfig"; sourceTree = "<group>"; };
+		EC8D680440781579D1EA5FAE /* Pods-LGSemiModalNavController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSemiModalNavController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEE9C732CB73A5CD1B0623EA /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap"; path = "../Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap"; sourceTree = "<group>"; };
+		FA8FF64621F764405638F014 /* Pods-LGSemiModalNavController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSemiModalNavController_Example-dummy.m"; sourceTree = "<group>"; };
+		FDAA27CCFCFF2F007E56B04F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FDF12A60B33C65B708C076EE /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap"; sourceTree = "<group>"; };
+		FEC5CCF65DBDEEF76D82C802 /* Pods-LGSemiModalNavController_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSemiModalNavController_Example-environment.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07779A87E531C570542B7800 /* Frameworks */ = {
+		016CD34A61FC59C8E8E1BDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11B46D3ADF52CC09BBB448E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0549F74E8C51C2F2EF9FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929212BCE56BACC7F1CD06BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		232C4D5FA540FB93FA3FAA63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E3F74D2771B12035FDC88D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFEF0785678B254C23FF3CC5 /* Foundation.framework in Frameworks */,
-				717BDA2D7DC54F88A64036AD /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B423D56A59DF36F45746DA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A68AB51F4CEADC0C8D899A85 /* Foundation.framework in Frameworks */,
-				2F9683604C1115EF54201E53 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A631F1CBB764DEAA05250D5F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8567B27EAFFE60145FE7C3F5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEAAF8C40852EC13FD8628AE /* Frameworks */ = {
+		484A8F7D4A7FCB5C1F98684B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D761774F729198EA05072567 /* Frameworks */ = {
+		5F7FDD031135267C601C8F80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F689E3F5F1B7C1BF743153BB /* Foundation.framework in Frameworks */,
+				0F7237391B58E2B62B650767 /* Foundation.framework in Frameworks */,
+				70B9D5854E47B965A0CDE831 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5C25C6F8B6DAA11EC28184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1EBAC9779300106A1426CF2 /* Foundation.framework in Frameworks */,
+				1BD17C82F089DCF1DBD3D467 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3725EA629E7BD6379ED2A971 = {
+		1A9B0B3CD9249D2E628596A5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC270C4432B14713E9952F5C /* Podfile */,
-				B255BB28474886A93AE8E544 /* Development Pods */,
-				B71976DCB4B561166C957E89 /* Frameworks */,
-				89B3A6716459E0AE38A77DD6 /* Products */,
-				D56D8CE5A76CBFF10469E7EF /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		7BF29F4D4F0FDEB92DBF9E31 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0FCB662DB9FB4D573A224BA6 /* LGSemiModalNavViewController.h */,
-				E3C4AFCA4FFF062144D92C86 /* LGSemiModalNavViewController.m */,
-				6D3D8B00802FED3CD769FCA7 /* LGSemiModalTransition.h */,
-				639C9164643BDDFDC9DF7619 /* LGSemiModalTransition.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		892A9CDB42C0BBC7B4B0DF4F /* Pods-LGSemiModalNavController_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F55EA5C57C0FF4953B63FA93 /* Info.plist */,
-				29C519FDD18A40E8ADC195A4 /* Pods-LGSemiModalNavController_Tests.modulemap */,
-				DE838A0BEE89D4A9AA2A35D3 /* Pods-LGSemiModalNavController_Tests-acknowledgements.markdown */,
-				271463155828279A67B6693D /* Pods-LGSemiModalNavController_Tests-acknowledgements.plist */,
-				06C4B7E08A9638F3F4A161B0 /* Pods-LGSemiModalNavController_Tests-dummy.m */,
-				1F54AC2575BE4E8F626076A7 /* Pods-LGSemiModalNavController_Tests-environment.h */,
-				53C287629533D3F333441728 /* Pods-LGSemiModalNavController_Tests-frameworks.sh */,
-				F047C041CBAF4F9723B03F33 /* Pods-LGSemiModalNavController_Tests-resources.sh */,
-				B8606A845CC2CDF69F3BF566 /* Pods-LGSemiModalNavController_Tests-umbrella.h */,
-				05A0CE8B9B698B7AA93C9E64 /* Pods-LGSemiModalNavController_Tests.debug.xcconfig */,
-				177813C56FD293EEA6513A93 /* Pods-LGSemiModalNavController_Tests.release.xcconfig */,
-			);
-			name = "Pods-LGSemiModalNavController_Tests";
-			path = "Target Support Files/Pods-LGSemiModalNavController_Tests";
-			sourceTree = "<group>";
-		};
-		89B3A6716459E0AE38A77DD6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AA2CCC20A28AF080F6471313 /* LGSemiModalNavController.bundle */,
-				CCD3243AEF077A0C36596678 /* LGSemiModalNavController.bundle */,
-				4D5273E02EEBEB4075E85675 /* LGSemiModalNavController.framework */,
-				464156660C2CB286A98C2226 /* LGSemiModalNavController.framework */,
-				DA111C7C92AA5538C1A886AA /* Pods_LGSemiModalNavController_Example.framework */,
-				FBA0F8BE55A3FE4BC13B05CC /* Pods_LGSemiModalNavController_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8DAEC2067B4D169E44080D7E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7333A38FDE10C64BB4B934B1 /* Foundation.framework */,
-				E3B93901A49CD4EE54A73701 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		AF49A6470F4532797C6D7D59 /* LGSemiModalNavController */ = {
-			isa = PBXGroup;
-			children = (
-				E163890C8C4374E968DD8CC6 /* Pod */,
-				B1DABF4A62342568C2A5DB5F /* Support Files */,
-			);
-			name = LGSemiModalNavController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B1DABF4A62342568C2A5DB5F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				32095882ACF03359D33E9BF6 /* Info.plist */,
-				0824D63C841716993D745FFB /* Info.plist */,
-				AA29703008718CCB78EB18B0 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap */,
-				C6E86776EE785859263CC9F0 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController.xcconfig */,
-				A907B36469F537D3A508B338 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */,
-				D38ACAA5A6D77B65E40C9A69 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m */,
-				FE3E2B9F4E75F83FAE40941E /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch */,
-				B7F8B209F5DDFA4E2F34B0E7 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h */,
-				0067760A37E0173EFA8E0E27 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap */,
-				39F87F698CDDB917C89F72CD /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.xcconfig */,
-				492E20FFD21A66CAD6B482EF /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */,
-				704C991083C07B67E9ACCD18 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m */,
-				1331B5A456E06793338051B4 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch */,
-				43F169D44F5515FA383BD038 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
-			sourceTree = "<group>";
-		};
-		B255BB28474886A93AE8E544 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AF49A6470F4532797C6D7D59 /* LGSemiModalNavController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B71976DCB4B561166C957E89 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8DAEC2067B4D169E44080D7E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D56D8CE5A76CBFF10469E7EF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DFC7BFEBE2A9D41FCCDA7DF8 /* Pods-LGSemiModalNavController_Example */,
-				892A9CDB42C0BBC7B4B0DF4F /* Pods-LGSemiModalNavController_Tests */,
+				3071BA5B8E807E4F6DF3D609 /* Pods-LGSemiModalNavController_Example */,
+				80BECA1FFF1181363C9B1179 /* Pods-LGSemiModalNavController_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DFC7BFEBE2A9D41FCCDA7DF8 /* Pods-LGSemiModalNavController_Example */ = {
+		3071BA5B8E807E4F6DF3D609 /* Pods-LGSemiModalNavController_Example */ = {
 			isa = PBXGroup;
 			children = (
-				04DA2377474C3CD7FC46E067 /* Info.plist */,
-				B7AA80C9A561AA6D27461107 /* Pods-LGSemiModalNavController_Example.modulemap */,
-				0DCB10619DFA7738DA1B208F /* Pods-LGSemiModalNavController_Example-acknowledgements.markdown */,
-				3E93910CAA7BF65FCCD88A02 /* Pods-LGSemiModalNavController_Example-acknowledgements.plist */,
-				0ABA2D8B4F524AC5C4EB245D /* Pods-LGSemiModalNavController_Example-dummy.m */,
-				906CF35C137E9B7BE64BD2EA /* Pods-LGSemiModalNavController_Example-environment.h */,
-				F4B94C4421106F1AABCA8F38 /* Pods-LGSemiModalNavController_Example-frameworks.sh */,
-				D0832B3B4D153726B0B391D1 /* Pods-LGSemiModalNavController_Example-resources.sh */,
-				3B40B361C632F87814CB48B2 /* Pods-LGSemiModalNavController_Example-umbrella.h */,
-				23C70864E0720BC3DBB1D019 /* Pods-LGSemiModalNavController_Example.debug.xcconfig */,
-				C9842B9CEB7E4127676636FB /* Pods-LGSemiModalNavController_Example.release.xcconfig */,
+				43037B04307F801C0EA9771B /* Info.plist */,
+				A74257A91A27E94DF36720C7 /* Pods-LGSemiModalNavController_Example.modulemap */,
+				2C13E41AE10B4E640B217BB7 /* Pods-LGSemiModalNavController_Example-acknowledgements.markdown */,
+				A1D2E464F77632574460A9CF /* Pods-LGSemiModalNavController_Example-acknowledgements.plist */,
+				FA8FF64621F764405638F014 /* Pods-LGSemiModalNavController_Example-dummy.m */,
+				FEC5CCF65DBDEEF76D82C802 /* Pods-LGSemiModalNavController_Example-environment.h */,
+				DE6C2F4A2DA0EDE01DA8C1C7 /* Pods-LGSemiModalNavController_Example-frameworks.sh */,
+				54B9F2E3B926AE636CEBF2A3 /* Pods-LGSemiModalNavController_Example-resources.sh */,
+				4A20AEA7DCA683183B8773F0 /* Pods-LGSemiModalNavController_Example-umbrella.h */,
+				8F98AAD6E6DBF706854E238F /* Pods-LGSemiModalNavController_Example.debug.xcconfig */,
+				D95CB7D1DBEE7AA3454A6EEA /* Pods-LGSemiModalNavController_Example.release.xcconfig */,
 			);
 			name = "Pods-LGSemiModalNavController_Example";
 			path = "Target Support Files/Pods-LGSemiModalNavController_Example";
 			sourceTree = "<group>";
 		};
-		E163890C8C4374E968DD8CC6 /* Pod */ = {
+		50F90A7E7B3F86824919F403 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7BF29F4D4F0FDEB92DBF9E31 /* Classes */,
+				40C608CA9383E32EAFD3C077 /* LGSemiModalNavController.bundle */,
+				8179E72919E3F1AD646AB78C /* LGSemiModalNavController.bundle */,
+				0DC89F433D11CD558F3D0A1F /* LGSemiModalNavController.framework */,
+				91F2DDA872C7FA9391E0357E /* LGSemiModalNavController.framework */,
+				85B188D41B20B01F72C88BDB /* Pods_LGSemiModalNavController_Example.framework */,
+				64A0872E7FDB8C494DE747F5 /* Pods_LGSemiModalNavController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516EACDE7045AADA91E02360 = {
+			isa = PBXGroup;
+			children = (
+				B8B8ABB1A48840F77A38E4DF /* Podfile */,
+				74D6500BC3DBD90738F6704C /* Development Pods */,
+				E832D9237CB0786C491443BF /* Frameworks */,
+				50F90A7E7B3F86824919F403 /* Products */,
+				1A9B0B3CD9249D2E628596A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		74D6500BC3DBD90738F6704C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE550B2BF40282D50C707BDF /* LGSemiModalNavController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		80BECA1FFF1181363C9B1179 /* Pods-LGSemiModalNavController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3AA05A1EE79146F391AE3BB2 /* Info.plist */,
+				E171F8D791E0E545132ACCA5 /* Pods-LGSemiModalNavController_Tests.modulemap */,
+				7109902D3D6AF02A06780183 /* Pods-LGSemiModalNavController_Tests-acknowledgements.markdown */,
+				65EE41B1D2C475206D2BEDC7 /* Pods-LGSemiModalNavController_Tests-acknowledgements.plist */,
+				4C78FA7D3EFC5527413FC61F /* Pods-LGSemiModalNavController_Tests-dummy.m */,
+				7D4DA422C5A8E83F96819782 /* Pods-LGSemiModalNavController_Tests-environment.h */,
+				6ABFEF8028817FB2A31B1154 /* Pods-LGSemiModalNavController_Tests-frameworks.sh */,
+				BAC3FCA5B2CF10B8F5B4D0F8 /* Pods-LGSemiModalNavController_Tests-resources.sh */,
+				CFAB54E307E65FF172C75502 /* Pods-LGSemiModalNavController_Tests-umbrella.h */,
+				EC8D680440781579D1EA5FAE /* Pods-LGSemiModalNavController_Tests.debug.xcconfig */,
+				0BD916719EB1969F0E04F914 /* Pods-LGSemiModalNavController_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGSemiModalNavController_Tests";
+			path = "Target Support Files/Pods-LGSemiModalNavController_Tests";
+			sourceTree = "<group>";
+		};
+		863E89F52C2ADBCFC43FB68C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB67784C8127A54AEC5E6B33 /* LGSemiModalNavViewController.h */,
+				2C4D3FD3D7358885042411E3 /* LGSemiModalNavViewController.m */,
+				8EAE0BCF8B852C08AEB18155 /* LGSemiModalTransition.h */,
+				7756E03C5B5FCF604B87D2A3 /* LGSemiModalTransition.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D806F7620C7804B96F4FE6E9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				863E89F52C2ADBCFC43FB68C /* Classes */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		E832D9237CB0786C491443BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6AFE903CD66B10E158B855 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6AFE903CD66B10E158B855 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9252F1282C0BCD5FAA2A6328 /* Foundation.framework */,
+				FDAA27CCFCFF2F007E56B04F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FDFFDFBCDBB157CCE2120D0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AF00A666C6FC0FE79106C81 /* Info.plist */,
+				A7C4FBA30B151652C77D592A /* Info.plist */,
+				FDF12A60B33C65B708C076EE /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap */,
+				839E828C38D22F0C28C8400F /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController.xcconfig */,
+				716FEB4D539406A5FE2A777A /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */,
+				C84FFFD54879F7A766264749 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m */,
+				98D36C129DC3DB577A6F667C /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch */,
+				1583376D43F427200927FA36 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h */,
+				EEE9C732CB73A5CD1B0623EA /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap */,
+				E6811B63E1E1D6C731B7C027 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.xcconfig */,
+				0CB61DF711961539B992635B /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */,
+				687174EF6338893BD358A81A /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m */,
+				C18B55C6425A755FB20C7286 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch */,
+				2545378A7A5BC3E9125C8593 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
+			sourceTree = "<group>";
+		};
+		FE550B2BF40282D50C707BDF /* LGSemiModalNavController */ = {
+			isa = PBXGroup;
+			children = (
+				D806F7620C7804B96F4FE6E9 /* Pod */,
+				FDFFDFBCDBB157CCE2120D0E /* Support Files */,
+			);
+			name = LGSemiModalNavController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6577352F54F78429FD9B9377 /* Headers */ = {
+		04050A6F4BED8E79CC4E49B0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194A3FDB899B553BBC22ADC1 /* LGSemiModalNavViewController.h in Headers */,
-				706F00CBC13E5986A3DC82E3 /* LGSemiModalTransition.h in Headers */,
-				FBA7130FAE5621791649BA36 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h in Headers */,
+				1420163AFD90962C9009D686 /* Pods-LGSemiModalNavController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7041BDED13CACCD6D9A1A6D7 /* Headers */ = {
+		27A8CE6D7FB045754AA9AE0C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA00449E86135095973F15D /* LGSemiModalNavViewController.h in Headers */,
-				F15E65A38364462194D992AB /* LGSemiModalTransition.h in Headers */,
-				3240DD2A5277DD2C960597E7 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h in Headers */,
+				6440F6F3CF6ABBCF2757F7D3 /* LGSemiModalNavViewController.h in Headers */,
+				807C1B9B3CA1E8970458BB3E /* LGSemiModalTransition.h in Headers */,
+				24AD8366CB8D00AA29A5CE2A /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C786C95A8A3423E6DD4337D /* Headers */ = {
+		88DB97226A84622F6B81AD94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7BEE16D0908EF8D56669EDD /* Pods-LGSemiModalNavController_Example-umbrella.h in Headers */,
+				8D0D14A34918969A7C0493F4 /* Pods-LGSemiModalNavController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A682746AEA631C0687073DF /* Headers */ = {
+		917B26FF042530F384C9AB3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D785A7407B79869746FA5F2 /* Pods-LGSemiModalNavController_Tests-umbrella.h in Headers */,
+				3895F4E16301B5E75F71D8DA /* LGSemiModalNavViewController.h in Headers */,
+				14F557C84292A61113C75F54 /* LGSemiModalTransition.h in Headers */,
+				F437B219EC594A5499E01C09 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		601A10AF0D855BB521DD8782 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController */ = {
+		18BB38985B4744726E15CBDA /* Pods-LGSemiModalNavController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6727A51179F83DE81EF9FAFD /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController" */;
+			buildConfigurationList = DF19E4EB4EDFF6017F6E8E56 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example" */;
 			buildPhases = (
-				1DA9FFD51A022F3BA074455E /* Sources */,
-				CEAAF8C40852EC13FD8628AE /* Frameworks */,
-				63BBAA815A9CF0790EE1118D /* Resources */,
+				DF46F624F7B7D5D53E9F5E2F /* Sources */,
+				1E0549F74E8C51C2F2EF9FF6 /* Frameworks */,
+				88DB97226A84622F6B81AD94 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController";
-			productName = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController";
-			productReference = CCD3243AEF077A0C36596678 /* LGSemiModalNavController.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		C76495BC59F9FA6456EC7309 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 223ED78853D99224A12E740C /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController" */;
-			buildPhases = (
-				2F1EFD2FCB991FFCB9E48703 /* Sources */,
-				2B423D56A59DF36F45746DA3 /* Frameworks */,
-				71D4AD8CF9377F9FCB66BF0A /* Resources */,
-				6577352F54F78429FD9B9377 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				99724E597D0BF494B6CC6699 /* PBXTargetDependency */,
-			);
-			name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController";
-			productName = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController";
-			productReference = 464156660C2CB286A98C2226 /* LGSemiModalNavController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CA0C292CF248447CDFDADE5D /* Pods-LGSemiModalNavController_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 85BDC95C4481C4CADF5E3C1D /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example" */;
-			buildPhases = (
-				1F1A83C81D7FD9D628538EDF /* Sources */,
-				A631F1CBB764DEAA05250D5F /* Frameworks */,
-				7C786C95A8A3423E6DD4337D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				484556BF72A40C85A5030800 /* PBXTargetDependency */,
+				A4C6BE37E064585F336A5696 /* PBXTargetDependency */,
 			);
 			name = "Pods-LGSemiModalNavController_Example";
 			productName = "Pods-LGSemiModalNavController_Example";
-			productReference = DA111C7C92AA5538C1A886AA /* Pods_LGSemiModalNavController_Example.framework */;
+			productReference = 85B188D41B20B01F72C88BDB /* Pods_LGSemiModalNavController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9228031157D7107D428C34B /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController */ = {
+		63AA7B9BC1960E3133A70B87 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F297B509DB0C63D52F7A05D2 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example-LGSemiModalNavController" */;
+			buildConfigurationList = 74ABEA372679C9BA855D3A53 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController" */;
 			buildPhases = (
-				E6B45BBE9DE47C30FD30499D /* Sources */,
-				1E3F74D2771B12035FDC88D7 /* Frameworks */,
-				4FDD91B73AFFEE6A5F7465F6 /* Resources */,
-				7041BDED13CACCD6D9A1A6D7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D68533B456902A94436C1A96 /* PBXTargetDependency */,
-			);
-			name = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
-			productName = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
-			productReference = 4D5273E02EEBEB4075E85675 /* LGSemiModalNavController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DC1ED6FC562024AA8ACD27F1 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 625B0BC60C21283851BA59FF /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController" */;
-			buildPhases = (
-				4FBB57AA9367F95BA3A773A9 /* Sources */,
-				07779A87E531C570542B7800 /* Frameworks */,
-				E1BE34932BA254B080C1D47E /* Resources */,
+				4E578602474FCAE4029450AB /* Sources */,
+				232C4D5FA540FB93FA3FAA63 /* Frameworks */,
+				DDC23E9493AAA5AC619305B0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -444,82 +389,137 @@
 			);
 			name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController";
 			productName = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController";
-			productReference = AA2CCC20A28AF080F6471313 /* LGSemiModalNavController.bundle */;
+			productReference = 40C608CA9383E32EAFD3C077 /* LGSemiModalNavController.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		F668E1D7D7F29D6FEF0590CB /* Pods-LGSemiModalNavController_Tests */ = {
+		823827470D54D1576EAF5A65 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8939757CDCF1304F8A687DB9 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests" */;
+			buildConfigurationList = C86D4A2B0EDA409A85B82BFD /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example-LGSemiModalNavController" */;
 			buildPhases = (
-				6926124ECDF2C36EC2672283 /* Sources */,
-				D761774F729198EA05072567 /* Frameworks */,
-				9A682746AEA631C0687073DF /* Headers */,
+				2D5C229A0F59EAD69B5C8E22 /* Sources */,
+				5F7FDD031135267C601C8F80 /* Frameworks */,
+				0453D541808E3995323CE9C9 /* Resources */,
+				27A8CE6D7FB045754AA9AE0C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C11EC6F3F6B5CB57CAE4D15 /* PBXTargetDependency */,
+				F45F2868363E20A9D3888FC7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
+			productName = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
+			productReference = 0DC89F433D11CD558F3D0A1F /* LGSemiModalNavController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FC18F8400B46BE755C1B1EC /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C216184BF7254869320AD2C0 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController" */;
+			buildPhases = (
+				034825EE1B59A8A85CD71582 /* Sources */,
+				484A8F7D4A7FCB5C1F98684B /* Frameworks */,
+				0C43308AECC9562E4513CF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController";
+			productName = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController";
+			productReference = 8179E72919E3F1AD646AB78C /* LGSemiModalNavController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9FDEEEA50BC560E1F986F436 /* Pods-LGSemiModalNavController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0131DD0C5733055D8AC0A /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests" */;
+			buildPhases = (
+				772AD82A41B19747386DCE30 /* Sources */,
+				016CD34A61FC59C8E8E1BDA4 /* Frameworks */,
+				04050A6F4BED8E79CC4E49B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFF276439B0334472AECE5F /* PBXTargetDependency */,
 			);
 			name = "Pods-LGSemiModalNavController_Tests";
 			productName = "Pods-LGSemiModalNavController_Tests";
-			productReference = FBA0F8BE55A3FE4BC13B05CC /* Pods_LGSemiModalNavController_Tests.framework */;
+			productReference = 64A0872E7FDB8C494DE747F5 /* Pods_LGSemiModalNavController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6A17C97434D74C305ACE051 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8709855351A9066B1E60E3 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController" */;
+			buildPhases = (
+				1C31374773A55C8F33079FCF /* Sources */,
+				DF5C25C6F8B6DAA11EC28184 /* Frameworks */,
+				0747782EA3FF8FC0EFF5B169 /* Resources */,
+				917B26FF042530F384C9AB3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBEA3CBD1C8A2CE63331C08 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController";
+			productName = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController";
+			productReference = 91F2DDA872C7FA9391E0357E /* LGSemiModalNavController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F8D1335B067C14F6710A60E7 /* Project object */ = {
+		D41A6A517DE52933697488BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = B22B1040E539DDE105996F98 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 70EE8349D820C182DAA3524C /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3725EA629E7BD6379ED2A971;
-			productRefGroup = 89B3A6716459E0AE38A77DD6 /* Products */;
+			mainGroup = 516EACDE7045AADA91E02360;
+			productRefGroup = 50F90A7E7B3F86824919F403 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA0C292CF248447CDFDADE5D /* Pods-LGSemiModalNavController_Example */,
-				D9228031157D7107D428C34B /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController */,
-				601A10AF0D855BB521DD8782 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController */,
-				F668E1D7D7F29D6FEF0590CB /* Pods-LGSemiModalNavController_Tests */,
-				C76495BC59F9FA6456EC7309 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController */,
-				DC1ED6FC562024AA8ACD27F1 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController */,
+				18BB38985B4744726E15CBDA /* Pods-LGSemiModalNavController_Example */,
+				823827470D54D1576EAF5A65 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController */,
+				9FC18F8400B46BE755C1B1EC /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController */,
+				9FDEEEA50BC560E1F986F436 /* Pods-LGSemiModalNavController_Tests */,
+				A6A17C97434D74C305ACE051 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController */,
+				63AA7B9BC1960E3133A70B87 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4FDD91B73AFFEE6A5F7465F6 /* Resources */ = {
+		0453D541808E3995323CE9C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC9C579A4A6829D5EF141F1 /* LGSemiModalNavController.bundle in Resources */,
+				791F86C26C7390444932C6F2 /* LGSemiModalNavController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63BBAA815A9CF0790EE1118D /* Resources */ = {
+		0747782EA3FF8FC0EFF5B169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698B4181303AEC812D5C46EE /* LGSemiModalNavController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C43308AECC9562E4513CF40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71D4AD8CF9377F9FCB66BF0A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBFDBFCE8A9F62512F57ECDB /* LGSemiModalNavController.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1BE34932BA254B080C1D47E /* Resources */ = {
+		DDC23E9493AAA5AC619305B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,241 +529,87 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1DA9FFD51A022F3BA074455E /* Sources */ = {
+		034825EE1B59A8A85CD71582 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F1A83C81D7FD9D628538EDF /* Sources */ = {
+		1C31374773A55C8F33079FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B375643FFBB758BB4042AAB0 /* Pods-LGSemiModalNavController_Example-dummy.m in Sources */,
+				081C3B5054A1567E06051901 /* LGSemiModalNavViewController.m in Sources */,
+				95D7D486389C4C3704A83F14 /* LGSemiModalTransition.m in Sources */,
+				D83FF2560E17023E7EE8EEEE /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F1EFD2FCB991FFCB9E48703 /* Sources */ = {
+		2D5C229A0F59EAD69B5C8E22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D9430877DEA053EDC7FEA0 /* LGSemiModalNavViewController.m in Sources */,
-				780FC2924C4374644414AF2E /* LGSemiModalTransition.m in Sources */,
-				454AD3B98EF192C4B5ACA1ED /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-dummy.m in Sources */,
+				9871B77E3961BD5FCFB15769 /* LGSemiModalNavViewController.m in Sources */,
+				AFB7376D6FEB83D84DF73303 /* LGSemiModalTransition.m in Sources */,
+				722BEB5567DE1FD30DBFD5FA /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FBB57AA9367F95BA3A773A9 /* Sources */ = {
+		4E578602474FCAE4029450AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6926124ECDF2C36EC2672283 /* Sources */ = {
+		772AD82A41B19747386DCE30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D2B27DD784EDFAE9AD5610 /* Pods-LGSemiModalNavController_Tests-dummy.m in Sources */,
+				5AD4C61E32705BC03C125445 /* Pods-LGSemiModalNavController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6B45BBE9DE47C30FD30499D /* Sources */ = {
+		DF46F624F7B7D5D53E9F5E2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655CEE867C9D204B10B0C37C /* LGSemiModalNavViewController.m in Sources */,
-				B2D55BF6AFB1D19AB80ECB78 /* LGSemiModalTransition.m in Sources */,
-				9C0DF355A506A585709B4F45 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-dummy.m in Sources */,
+				A77F110BFD510C0BDA7C40E5 /* Pods-LGSemiModalNavController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		484556BF72A40C85A5030800 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
-			target = D9228031157D7107D428C34B /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController */;
-			targetProxy = D145F17A71B224AADF1FA7DF /* PBXContainerItemProxy */;
-		};
-		7C11EC6F3F6B5CB57CAE4D15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController";
-			target = C76495BC59F9FA6456EC7309 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController */;
-			targetProxy = 52FAE2DEB2D20424A8522A2F /* PBXContainerItemProxy */;
-		};
-		99724E597D0BF494B6CC6699 /* PBXTargetDependency */ = {
+		2BBEA3CBD1C8A2CE63331C08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController";
-			target = DC1ED6FC562024AA8ACD27F1 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController */;
-			targetProxy = 0A380FC0318C8945705FA6E7 /* PBXContainerItemProxy */;
+			target = 63AA7B9BC1960E3133A70B87 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController */;
+			targetProxy = F0351E0D6C805EBCBFF1390A /* PBXContainerItemProxy */;
 		};
-		D68533B456902A94436C1A96 /* PBXTargetDependency */ = {
+		2DFF276439B0334472AECE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController";
+			target = A6A17C97434D74C305ACE051 /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController */;
+			targetProxy = C1595D74FF2A6358ECC5220A /* PBXContainerItemProxy */;
+		};
+		A4C6BE37E064585F336A5696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController";
+			target = 823827470D54D1576EAF5A65 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController */;
+			targetProxy = 65FB5FEBD64C57FC6A7B6958 /* PBXContainerItemProxy */;
+		};
+		F45F2868363E20A9D3888FC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController";
-			target = 601A10AF0D855BB521DD8782 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController */;
-			targetProxy = E4FCDF9945AC429DF85C1059 /* PBXContainerItemProxy */;
+			target = 9FC18F8400B46BE755C1B1EC /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController */;
+			targetProxy = 74E036ACFDFFD7634D76F170 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07CAAAF6B232CEFF25DA3211 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A907B36469F537D3A508B338 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LGSemiModalNavController_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LGSemiModalNavController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		17653B4869D670B997334070 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 492E20FFD21A66CAD6B482EF /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LGSemiModalNavController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5C815A0AF008CD3CF9DE6CB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A907B36469F537D3A508B338 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LGSemiModalNavController_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LGSemiModalNavController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		5E0E763D77BA8B3E3DD0EEF9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A907B36469F537D3A508B338 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LGSemiModalNavController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		689F76F08D77A166287A7252 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 492E20FFD21A66CAD6B482EF /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LGSemiModalNavController_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LGSemiModalNavController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6B797F58CBBB0C6C191A363D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6BBC22E4785699738D83B9B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A907B36469F537D3A508B338 /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LGSemiModalNavController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		75068746A6FDDC918F751445 /* Debug */ = {
+		0439CD7BD21D96D069E2831F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -802,9 +648,22 @@
 			};
 			name = Debug;
 		};
-		A2F3D357528178A14EBE5C82 /* Debug */ = {
+		04C9143C41784975FC5237F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23C70864E0720BC3DBB1D019 /* Pods-LGSemiModalNavController_Example.debug.xcconfig */;
+			baseConfigurationReference = 0CB61DF711961539B992635B /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LGSemiModalNavController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGSemiModalNavController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1038C3C030AAD3EE9B947571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95CB7D1DBEE7AA3454A6EEA /* Pods-LGSemiModalNavController_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -818,7 +677,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example/Pods-LGSemiModalNavController_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -829,11 +688,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		DE6EC86E604D5E8971F3786B /* Debug */ = {
+		203116F1B383FCC1ED05D7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05A0CE8B9B698B7AA93C9E64 /* Pods-LGSemiModalNavController_Tests.debug.xcconfig */;
+			baseConfigurationReference = EC8D680440781579D1EA5FAE /* Pods-LGSemiModalNavController_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -860,9 +719,22 @@
 			};
 			name = Debug;
 		};
-		E7480D020D9099F09904D920 /* Release */ = {
+		24FA15ED655C403055BD43D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 492E20FFD21A66CAD6B482EF /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */;
+			baseConfigurationReference = 716FEB4D539406A5FE2A777A /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LGSemiModalNavController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGSemiModalNavController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		471F8F39B6367D21C845FD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB61DF711961539B992635B /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LGSemiModalNavController_Tests";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -873,9 +745,9 @@
 			};
 			name = Release;
 		};
-		F33DA91074A8A0E897809564 /* Release */ = {
+		650182CDA6D632FFDF898540 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 177813C56FD293EEA6513A93 /* Pods-LGSemiModalNavController_Tests.release.xcconfig */;
+			baseConfigurationReference = 0CB61DF711961539B992635B /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -884,16 +756,68 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LGSemiModalNavController_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Tests/Pods-LGSemiModalNavController_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController/Pods-LGSemiModalNavController_Tests-LGSemiModalNavController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGSemiModalNavController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D160832409860B00CAE1C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716FEB4D539406A5FE2A777A /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGSemiModalNavController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F91E6B132C60AAC0FA73DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716FEB4D539406A5FE2A777A /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Pods-LGSemiModalNavController_Example-LGSemiModalNavController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example-LGSemiModalNavController/Pods-LGSemiModalNavController_Example-LGSemiModalNavController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_LGSemiModalNavController_Tests;
+				PRODUCT_NAME = LGSemiModalNavController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -902,9 +826,22 @@
 			};
 			name = Release;
 		};
-		F57E0AFEA1F2096A7605E576 /* Release */ = {
+		CD1DBC1F9DEEC17E6C3CA180 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 492E20FFD21A66CAD6B482EF /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */;
+			baseConfigurationReference = 716FEB4D539406A5FE2A777A /* Pods-LGSemiModalNavController_Example-LGSemiModalNavController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LGSemiModalNavController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGSemiModalNavController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E1DA20C293BD8C34831ADC7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB61DF711961539B992635B /* Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -929,9 +866,72 @@
 			};
 			name = Release;
 		};
-		FB77C6C4F80EA177B3916FF1 /* Release */ = {
+		E53B9B437ACCA29C421732A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9842B9CEB7E4127676636FB /* Pods-LGSemiModalNavController_Example.release.xcconfig */;
+			baseConfigurationReference = 0BD916719EB1969F0E04F914 /* Pods-LGSemiModalNavController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGSemiModalNavController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Tests/Pods-LGSemiModalNavController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGSemiModalNavController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6B0425EB6634C61412CD00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E4F5EC9214E516178B5AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F98AAD6E6DBF706854E238F /* Pods-LGSemiModalNavController_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -945,7 +945,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-LGSemiModalNavController_Example/Pods-LGSemiModalNavController_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -956,75 +956,75 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		223ED78853D99224A12E740C /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController" */ = {
+		0C8709855351A9066B1E60E3 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17653B4869D670B997334070 /* Debug */,
-				F57E0AFEA1F2096A7605E576 /* Release */,
+				650182CDA6D632FFDF898540 /* Debug */,
+				E1DA20C293BD8C34831ADC7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		625B0BC60C21283851BA59FF /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController" */ = {
+		44A0131DD0C5733055D8AC0A /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				689F76F08D77A166287A7252 /* Debug */,
-				E7480D020D9099F09904D920 /* Release */,
+				203116F1B383FCC1ED05D7FA /* Debug */,
+				E53B9B437ACCA29C421732A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6727A51179F83DE81EF9FAFD /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController" */ = {
+		70EE8349D820C182DAA3524C /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C815A0AF008CD3CF9DE6CB1 /* Debug */,
-				07CAAAF6B232CEFF25DA3211 /* Release */,
+				0439CD7BD21D96D069E2831F /* Debug */,
+				E6B0425EB6634C61412CD00A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85BDC95C4481C4CADF5E3C1D /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example" */ = {
+		74ABEA372679C9BA855D3A53 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests-LGSemiModalNavController-LGSemiModalNavController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2F3D357528178A14EBE5C82 /* Debug */,
-				FB77C6C4F80EA177B3916FF1 /* Release */,
+				04C9143C41784975FC5237F0 /* Debug */,
+				471F8F39B6367D21C845FD32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8939757CDCF1304F8A687DB9 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Tests" */ = {
+		C216184BF7254869320AD2C0 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-LGSemiModalNavController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE6EC86E604D5E8971F3786B /* Debug */,
-				F33DA91074A8A0E897809564 /* Release */,
+				24FA15ED655C403055BD43D7 /* Debug */,
+				CD1DBC1F9DEEC17E6C3CA180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B22B1040E539DDE105996F98 /* Build configuration list for PBXProject "Pods" */ = {
+		C86D4A2B0EDA409A85B82BFD /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example-LGSemiModalNavController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75068746A6FDDC918F751445 /* Debug */,
-				6B797F58CBBB0C6C191A363D /* Release */,
+				8D160832409860B00CAE1C0C /* Debug */,
+				9F91E6B132C60AAC0FA73DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F297B509DB0C63D52F7A05D2 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example-LGSemiModalNavController" */ = {
+		DF19E4EB4EDFF6017F6E8E56 /* Build configuration list for PBXNativeTarget "Pods-LGSemiModalNavController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BBC22E4785699738D83B9B4 /* Debug */,
-				5E0E763D77BA8B3E3DD0EEF9 /* Release */,
+				F1E4F5EC9214E516178B5AA5 /* Debug */,
+				1038C3C030AAD3EE9B947571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F8D1335B067C14F6710A60E7 /* Project object */;
+	rootObject = D41A6A517DE52933697488BE /* Project object */;
 }

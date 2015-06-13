@@ -14,6 +14,7 @@
 
 @implementation LGSemiModalNavViewController
 
+#pragma mark - Life
 
 - (void)loadView{
     [super loadView];
@@ -23,7 +24,6 @@
     self.transitioningDelegate = self;
     self.modalPresentationStyle = UIModalPresentationCustom;
     [self defaults];
-    
 }
 
 -(void)defaults{
@@ -35,6 +35,8 @@
     _springVelocity = 14;
     _backgroundShadeAlpha = 0.4;
 }
+
+#pragma mark - Actions
 
 - (void)dismissWasTapped{
     [self dismissViewControllerAnimated:YES completion:nil];
@@ -64,4 +66,5 @@
     animator.backgroundShadeAlpha = _backgroundShadeAlpha;
     return animator;
 }
+
 @end

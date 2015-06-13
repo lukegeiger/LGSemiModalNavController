@@ -6,7 +6,6 @@
 //  Copyright (c) 2016 6th Man Apps LLC. All rights reserved.
 //
 
-
 #import "LGSemiModalTransition.h"
 #import "LGSemiModalNavViewController.h"
 
