@@ -1,0 +1,14 @@
+PODS:
+  - LGSemiModalNavController (0.1.0)
+
+DEPENDENCIES:
+  - LGSemiModalNavController (from `../`)
+
+EXTERNAL SOURCES:
+  LGSemiModalNavController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGSemiModalNavController: f25846ad30d7e351267b7935a065aa24950c5e58
+
+COCOAPODS: 0.37.2

@@ -1,0 +1,6 @@
+framework module LGSemiModalNavController {
+  umbrella header "Pods-LGSemiModalNavController_Example-LGSemiModalNavController-umbrella.h"
+
+  export *
+  module * { export * }
+}
