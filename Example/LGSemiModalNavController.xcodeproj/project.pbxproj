@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6E69D6B07B3A2EF27575F1EC /* Pods_LGSemiModalNavController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC94A9DA1218E5DEA890866 /* Pods_LGSemiModalNavController_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9AF39BA709A42BB347D49625 /* Pods_LGSemiModalNavController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E778B5F30E13B834B3F00B2 /* Pods_LGSemiModalNavController_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DF6559921B2CE54B0018622E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6559911B2CE54B0018622E /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		9D235AB87C3C30BC72130601 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C70C4E362863E1CB8A1208DA /* LGSemiModalNavController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGSemiModalNavController.podspec; path = ../LGSemiModalNavController.podspec; sourceTree = "<group>"; };
 		D2866DCC1602B4B75D69A3D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DF6559911B2CE54B0018622E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* LGAppDelegate.h */,
+				DF6559911B2CE54B0018622E /* Launch Screen.storyboard */,
 				6003F59D195388D20070C39A /* LGAppDelegate.m */,
 				6003F5A5195388D20070C39A /* LGViewController.h */,
 				6003F5A6195388D20070C39A /* LGViewController.m */,
@@ -273,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6559921B2CE54B0018622E /* Launch Screen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
