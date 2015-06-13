@@ -8,9 +8,11 @@
   <img src="https://raw.githubusercontent.com/lukegeiger/LGSemiModalNavController/master/lukegeiger-semi-modal-cocoapod.gif">
 </p>
 
-## Purpose
+## Purpose & Description
 
 The purpose of the LGSemiModalNavController is to allow you to show a view controller a dynamically set height over another view controller.
+
+The effect this custom transition gives off is that a view partially springs up from the bottom of the screen and into place. The view behind this gets shrunk, or scaled down.
 
 ## Under The Hood
 There are two classes that play together to make this happen. the LGSemiModalNavViewController and the LGSemiModalTransition.
