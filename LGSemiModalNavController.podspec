@@ -10,19 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "LGSemiModalNavController"
   s.version          = "0.1.0"
-  s.summary          = "A short description of LGSemiModalNavController."
+  s.summary          = "A UINavigationController subclass that presents itself a dynamic amount"
   s.description      = <<-DESC
-                       An optional longer description of LGSemiModalNavController
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+A UINavigationController subclass that presents itself a dynamic amount in a view controller using the UIViewControllerAnimatedTransitioning protocol.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LGSemiModalNavController"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/lukegeiger/LGSemiModalNavController"
   s.license          = 'MIT'
   s.author           = { "Luke Geiger" => "lukejamesgeiger@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LGSemiModalNavController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/lukegeiger/LGSemiModalNavController.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/lukejgeiger'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -33,6 +29,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+
 end
