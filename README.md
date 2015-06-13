@@ -66,22 +66,6 @@ The LGSemiModalNavViewController subscribes to the UIViewControllerTransitioning
 
 ```
 
-## Customization
--Tap To Dismiss
-
--Animation Spped
-
--Background Color
-
--Transform
-
--Spring Damping
-
--Spring Velocity
-
--Background Alpha
-
-
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
