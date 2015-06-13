@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1AD4F6AF2987D7592B87E4A0"
+               BlueprintIdentifier = "D9228031157D7107D428C34B"
                BuildableName = "LGSemiModalNavController.framework"
                BlueprintName = "Pods-LGSemiModalNavController_Example-LGSemiModalNavController"
                ReferencedContainer = "container:Pods.xcodeproj">

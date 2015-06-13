@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LGSemiModalNavController: f25846ad30d7e351267b7935a065aa24950c5e58
+  LGSemiModalNavController: 935eb07cb22a89400b5b598ca125f8245e930abc
 
 COCOAPODS: 0.37.2
