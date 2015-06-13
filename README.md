@@ -6,6 +6,9 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/lukegeiger/LGSemiModalNavController/master/lukegeiger-semi-modal.png">
+  </p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/lukegeiger/LGSemiModalNavController/master/lukegeiger-semi-modal-cocoapod.gif">
 </p>
 
