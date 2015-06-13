@@ -12,6 +12,37 @@
 
 The purpose of the LGSemiModalNavController is to allow you to show a view controller a dynamically set height over another view controller.
 
+## Under The Hood
+There are two classes that play together to make this happen. the LGSemiModalNavViewController and the LGSemiModalTransition.
+The LGSemiModalNavViewController subscribes to the UIViewControllerTransitioningDelegate. The LGSemiModalTransition subscribes to UIViewControllerAnimatedTransitioning.
+
+```objective-c
+// LGSemiModalNavViewController.m
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented
+                                                                  presentingController:(UIViewController *)presenting
+                                                                      sourceController:(UIViewController *)source {
+    return [self transitionPresenting:YES];
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    return [self transitionPresenting:NO];
+}
+
+-(LGSemiModalTransition*)transitionPresenting:(BOOL)presenting{
+    LGSemiModalTransition *animator = [LGSemiModalTransition new];
+    animator.presenting = presenting;
+    animator.tapDismissEnabled = _tapDismissEnabled;
+    animator.animationSpeed = _animationSpeed;
+    animator.backgroundShadeColor = _backgroundShadeColor;
+    animator.scaleTransform = _scaleTransform;
+    animator.springDamping = _springDamping;
+    animator.springVelocity = _springVelocity;
+    animator.backgroundShadeAlpha = _backgroundShadeAlpha;
+    return animator;
+}
+```
+
 ## Example
 ```objective-c
     //This is an example.
@@ -32,6 +63,16 @@ The purpose of the LGSemiModalNavController is to allow you to show a view contr
     [self presentViewController:semiModal animated:YES completion:nil];
 
 ```
+
+## Customization
+-Tap To Dismiss
+-Animation Spped
+-Background Color
+-Transform
+-Spring Damping
+-Spring Velocity
+-Background Alpha
+
 
 ## Usage
 
