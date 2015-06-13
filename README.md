@@ -50,6 +50,7 @@ pod "LGSemiModalNavController"
 ## Authors
 
 Luke Geiger, @lukejgeiger
+
 Mathew Piccinato
 
 ## License
