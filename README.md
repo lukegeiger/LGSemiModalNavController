@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/LGSemiModalNavController.svg?style=flat)](http://cocoapods.org/pods/LGSemiModalNavController)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lukegeiger/LGSemiModalNavController/master/Example/images/geiger_sublimer.gif"alt="LukeGeigerSublimer">
+  <img src="https://raw.githubusercontent.com/lukegeiger/LGSemiModalNavController/master/lukegeiger-semi-modal.gif">
 </p>
 
 ## Purpose
@@ -50,6 +50,7 @@ pod "LGSemiModalNavController"
 ## Authors
 
 Luke Geiger, @lukejgeiger
+
 Mathew Piccinato
 
 ## License
