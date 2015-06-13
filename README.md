@@ -82,7 +82,7 @@ pod "LGSemiModalNavController"
 
 ## Authors
 
-Special thanks to Mathew Piccinato who helped develop this with me a while back!
+Special thanks to Mathew Piccinato who helped develop this with me!
 
 Luke Geiger, @lukejgeiger
 
