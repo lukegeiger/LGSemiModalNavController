@@ -15,7 +15,7 @@ The purpose of the LGSemiModalNavController is to allow you to show a view contr
 ## Example
 ```objective-c
     //This is an example.
-    LGViewController *lgVC = [[LGViewController alloc]initWithFormat:LGViewControllerFormatGoBack
+    LGViewController *lgVC = [[LGViewController alloc]initWithFormat:LGViewControllerFormatGoBack];
     
     //This is the nav controller
     LGSemiModalNavViewController *semiModal = [[LGSemiModalNavViewController alloc]initWithRootViewController:lgVC];
