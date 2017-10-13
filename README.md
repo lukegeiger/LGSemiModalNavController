@@ -1,7 +1,5 @@
 # LGSemiModalNavController
 
-#WARNING
-This repository is no longer maintained.
 
 [![Version](https://img.shields.io/cocoapods/v/LGSemiModalNavController.svg?style=flat)](http://cocoapods.org/pods/LGSemiModalNavController)
 [![License](https://img.shields.io/cocoapods/l/LGSemiModalNavController.svg?style=flat)](http://cocoapods.org/pods/LGSemiModalNavController)
@@ -10,6 +8,10 @@ This repository is no longer maintained.
 <p align="center">
   <img src="https://raw.githubusercontent.com/lukegeiger/LGSemiModalNavController/master/lukegeiger-semi-modal-cocoapod.gif">
 </p>
+
+
+## WARNING
+This repository is no longer maintained.
 
 ## Purpose & Description
 
