@@ -47,9 +47,9 @@
 @property (nonatomic, assign) CGFloat backgroundShadeAlpha;
 
 /**
- * An optional block to be invoked when controller dismission completion.
+ * An optional block to be invoked upon controller dismission completion.
  */
-@property (nonatomic, strong) void(^dismissionBlock)(void);
+@property (nonatomic, copy) void(^dismissionBlock)(void);
 
 /**
  Dismisses the view controller
