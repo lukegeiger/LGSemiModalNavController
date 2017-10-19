@@ -34,12 +34,13 @@
     _springDamping = 0.88;
     _springVelocity = 14;
     _backgroundShadeAlpha = 0.4;
+    _dismissionBlock = nil;
 }
 
 #pragma mark - Actions
 
 - (void)dismissWasTapped{
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:_dismissionBlock];
 }
 
 #pragma mark - UIViewControllerTransitioningDelegate Methods
